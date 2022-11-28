@@ -1,7 +1,13 @@
 package com.palmer.data.scheduler
 
-object SchedulerApp extends App {
 
-  println("Hello World")
+
+object SchedulerApp {
+
+  
+  def determineProductAssignments(problem: Problem): Schedule = {
+    ???
+  }
+  
   
 }

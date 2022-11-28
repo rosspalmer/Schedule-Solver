@@ -6,5 +6,6 @@ ThisBuild / version      := "0.0.1"
 
 libraryDependencies ++= Seq(
   "org.scalactic" %% "scalactic" % "3.2.14",
-  "org.scalatest" %% "scalatest" % "3.2.14" % "test"
+  "org.scalatest" %% "scalatest" % "3.2.14" % "test",
+  "com.google.ortools" % "ortools-java" % "9.4.1874"
 )
